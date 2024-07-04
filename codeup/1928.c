@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void p(int a){
+int p(int a){
 	printf("%d\n",a);
 	if(a == 1) return 0;
 	a%2==1 ? p(a*3+1):p(a/2);
